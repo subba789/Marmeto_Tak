@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Inter;
+}
+
+.main {
+    height: 691px;
+    width: 587px;
+    margin-left: 50px;
+}
+
+.var {
+    display: flex;
+    gap: 20px;
+    width: 520px;
+    height: 115px;
+    margin: 50px;
+    margin-top: 37px;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    width: 1317px;
+    height: 843px;
+    border: 1px solid black;
+    margin: 300px;
+    margin-right: 3000px;
+}
+
+.left {
+    float: left;
+    width: 587px;
+}
+
+.right {
+    float: right;
+    width: 582px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.second {
+    display: flex;
+    gap: 20px;
+    gap: 6px;
+}
+
+.sleft {
+    float: left;
+}
+
+.sright {
+    margin-top: 5px;
+    float: right;
+}
+
+.color-options {
+    display: flex;
+}
+
+.color-option {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    cursor: pointer;
+    /* Add a border to make the color options visible */
+}
+
+/* Additional style for selected color */
+.color-option.selected {
+    border-width: 3px; /* Increase border width to indicate selection */
+}
+
+/* Custom radio button container style */
+#sizeForm {
+    display: inline-block;
+    background-color: #EDF0F8; /* Default background color */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.fifth {
+    display: flex;
+    gap: 30px;
+}
+
+.number-selector {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 29.5px;
+    width: 169px;
+    height: 59px;
+}
+
+.number-selector input[type="number"] {
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #f8f9fa; /* Background color */
+}
+
+.number-selector input[type="number"]::-webkit-inner-spin-button,
+.number-selector input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.number-selector span {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #f8f9fa; /* Background color */
+}
+
+.number-selector span:hover {
+    background-color: #e9ecef; /* Hover background color */
+}
+
+.number-selector input[type="number"]:focus {
+    outline: none;
+    border: none;
+}
+
+.back {
+    width: 309px;
+    height: 59px;
+    top: 549px;
+    left: 966px;
+    border-radius: 29.5px;
+    background-color: rgba(58, 73, 128, 1);
+}
+
+.back>h3 {
+    padding-top: 15px;
+    margin-left: 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.desc {
+    width: 558px;
+    height: 224px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+#title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    text-align: left;
+}
+
+hr {
+    width: 582px;
+    top: 167px;
+    left: 778px;
+    border: 0.1px 0px 0px 0px;
+    border-color: solid #E4E4E4;
+}
